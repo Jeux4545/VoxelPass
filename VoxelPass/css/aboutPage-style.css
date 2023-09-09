@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+#voxel-pass {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+#icon {
+    width: 250px;
+}
+
+#text {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 25px;
+    width: 1000px;
+}
+
+#check-friends {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-top: 250px;
+}

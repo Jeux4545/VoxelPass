@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/popup-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <title>VoxelPass</title>
+</head>
+<body>
+    <center>
+        <input type="text" id="password" readonly="true">
+        <input type="number" id="letters" value="18">
+        <label id="password-checkbox">
+            Lowercase
+            <input type="checkbox" id="lowercase" checked>
+        </label>
+        <label id="password-checkbox">
+            Uppercase
+            <input type="checkbox" id="uppercase" checked>
+        </label>
+        <label id="password-checkbox">
+            Symbols
+            <input type="checkbox" id="symbols" checked>
+        </label>
+        <button id="generate-password">
+            Generate Password!
+        </button>
+        <button id="copy-password">
+            Copy Password!
+        </button>
+    </center>
+
+    <a href="aboutPage.html" style="color: rgb(139, 210, 248);" id="check-friends" target="_blank">About VoxelPass</a>
+
+    <script src="js/popup.js"></script>
+</body>
+</html>
